@@ -82,6 +82,40 @@ Patient_Health_Monitoring_System/
 3. Observe real-time health parameters on the LCD display.
 4. If IoT integration is enabled, monitor data remotely via the configured dashboard.
 
+## Project Demonstration
+
+This section is reserved for demonstrating the working of the project through images and videos. Visual documentation helps in better understanding of the system architecture, hardware setup, and real-time operation.
+
+### Images
+
+<img width="1919" height="943" alt="Screenshot 2025-11-28 182031" src="https://github.com/user-attachments/assets/9329c3c3-0f1a-4479-bf01-c616c615ca33" />
+
+<img width="959" height="409" alt="Screenshot 2025-11-28 181751" src="https://github.com/user-attachments/assets/23259db9-2232-45c1-b5b8-b7222bffee27" />
+
+
+Example:
+
+```
+/demo/images/
+  ├── hardware_setup.jpg
+  ├── lcd_output.jpg
+  └── dashboard_view.png
+```
+
+### Video Demonstration
+
+A short video demonstrating the working of the system can be added here. The video may include:
+
+* Explanation of components
+* Live monitoring of patient parameters
+* Data visualization on display or IoT platform
+
+You may upload the video to platforms like YouTube or Google Drive and provide the link below:
+
+* Project Demo Video: *(Add link here)*
+
+---
+
 ## Applications
 
 * Remote patient health monitoring
@@ -103,4 +137,3 @@ This project is licensed under the **MIT License**. Users are free to use, modif
 ---
 
 *Developed as an academic and learning-oriented project in the field of embedded systems and IoT.*
-
