@@ -92,7 +92,6 @@ This section is reserved for demonstrating the working of the project through im
 
 <img width="959" height="409" alt="Screenshot 2025-11-28 181751" src="https://github.com/user-attachments/assets/23259db9-2232-45c1-b5b8-b7222bffee27" />
 
-
 ![WhatsApp Image 2026-01-31 at 2 22 48 PM(1)](https://github.com/user-attachments/assets/44f6a128-e01e-42ad-85e2-24847dc34f47)
 
 
