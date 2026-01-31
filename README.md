@@ -120,11 +120,3 @@ You may upload the video to platforms like YouTube or Google Drive and provide t
 * Mobile or web-based monitoring application
 * Data logging and analytics
 * Alert and notification system for critical health conditions
-
-## License
-
-This project is licensed under the **MIT License**. Users are free to use, modify, and distribute the project with proper attribution.
-
----
-
-*Developed as an academic and learning-oriented project in the field of embedded systems and IoT.*
