@@ -1,1 +1,106 @@
+# Patient Health Monitoring System
+
+## Overview
+
+The **Patient Health Monitoring System** is a healthcare-oriented embedded/IoT project developed to monitor essential physiological parameters of a patient in real time. The system focuses on continuous observation of vital signs such as body temperature and heart rate, enabling timely detection of abnormal conditions.
+
+This project demonstrates the practical application of embedded systems and Internet of Things (IoT) concepts in the healthcare domain and aims to provide a basic yet extensible framework for remote patient monitoring.
+
+## Objectives
+
+* To continuously monitor vital health parameters of a patient
+* To display real-time health data locally using a display module
+* To enable remote monitoring through IoT platforms (optional)
+* To assist caregivers and medical personnel in early detection of health issues
+
+## Key Features
+
+* Real-time monitoring of heart rate
+* Real-time monitoring of body temperature
+* Local display of sensor readings
+* Optional integration with IoT dashboards for remote access
+* Scalable architecture for adding additional health sensors
+
+## Technologies Used
+
+### Hardware Components
+
+* Microcontroller (Arduino / ESP8266)
+* Pulse Sensor
+* Temperature Sensor (LM35 / DHT11)
+* LCD Display (16×2)
+* Power Supply Module
+
+### Software & Tools
+
+* Arduino IDE
+* Embedded C / C++
+* IoT Platforms (ThingSpeak / Blynk – optional)
+
+## System Architecture
+
+Sensors collect physiological data from the patient and send it to the microcontroller. The microcontroller processes the data and displays it on a local display. Optionally, the processed data can be transmitted to an IoT platform for remote monitoring and visualization.
+
+```
+Sensors → Microcontroller → LCD Display
+                   ↓
+            IoT Dashboard (Optional)
+```
+
+## Project Structure
+
+```
+Patient_Health_Monitoring_System/
+├── src/          # Source code files
+├── hardware/     # Circuit diagrams and hardware details
+├── docs/         # Documentation and reports
+├── README.md     # Project documentation
+├── LICENSE       # License information
+```
+
+## Setup and Installation
+
+### Hardware Setup
+
+1. Connect the pulse sensor to the analog input pin of the microcontroller.
+2. Connect the temperature sensor according to its specifications.
+3. Interface the LCD display with the microcontroller.
+4. Provide an appropriate power supply to the system.
+
+### Software Setup
+
+1. Install the Arduino IDE.
+2. Install required libraries for sensors and display modules.
+3. Open the main `.ino` file located in the `src` directory.
+4. Select the correct board and COM port.
+5. Upload the code to the microcontroller.
+
+## Usage Instructions
+
+1. Power on the system.
+2. Attach the sensors to the patient correctly.
+3. Observe real-time health parameters on the LCD display.
+4. If IoT integration is enabled, monitor data remotely via the configured dashboard.
+
+## Applications
+
+* Remote patient health monitoring
+* Elderly care systems
+* Hospital monitoring systems
+* Home healthcare solutions
+
+## Future Enhancements
+
+* Integration of additional sensors (SpO₂, ECG, Blood Pressure)
+* Mobile or web-based monitoring application
+* Data logging and analytics
+* Alert and notification system for critical health conditions
+
+## License
+
+This project is licensed under the **MIT License**. Users are free to use, modify, and distribute the project with proper attribution.
+
+---
+
+*Developed as an academic and learning-oriented project in the field of embedded systems and IoT.*
 
